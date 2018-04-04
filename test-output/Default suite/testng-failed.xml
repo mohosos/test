@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Registeration">
+        <methods>
+          <include name="N_Try_to_input_chars_in_mobile_number"/>
+          <include name="dependencies"/>
+          <include name="N_Try_proceed_while_the_mobile_number_field_is_blank"/>
+          <include name="report"/>
+          <include name="N_Try_to_input_special_chars_in_mobile_number"/>
+        </methods>
+      </class> <!-- Registeration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
